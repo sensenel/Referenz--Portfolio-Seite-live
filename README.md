@@ -1,4 +1,4 @@
-# Willkommen im Repository meiner kleinen Portfolio- und Referenz-Seite
+## Willkommen im Repository meiner kleinen Portfolio- und Referenz-Seite
 
 Für Support oder allgemeine Fragen: 
 

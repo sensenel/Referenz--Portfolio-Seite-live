@@ -1,3 +1,9 @@
+/*
+ * INFO: 
+ * Normalerweiise werden styles und JS zu Gunsten der Performance "ge'minified" / komprimiert
+ * Als Referenz und für die Lesbarkeit habe ich diese Files so belassen.
+ * Ch. Gabler
+*/
 @font-face {
     font-family: 'Karla';
     src: url('/fonts/Karla-Regular.ttf') format('truetype');
@@ -34,17 +40,6 @@ body {
 @keyframes fadein 
 { from {opacity:0} to {opacity:1} }
 
-/*remove nach init load*/
-/*     body#body:after { 
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: transparent;
-    z-index: 1;
-} */
 
 body.direct,
 body.ext-hover {
@@ -702,12 +697,7 @@ body.start .content {
 /*     transform: rotate3d(0,0,0, 0deg);
     transition: transform .8s; */
 }
-/* body.skills .content {
-    transform: rotate3d(1,0,0,60deg);
-} */
-/* body.detail .content {
-    height: 90vh;
-} */
+
 .content-header h2, ol.content-header--items li:before, li.content-header__item h2 span {
     -webkit-font-smoothing: antialiased;
 }
@@ -909,57 +899,6 @@ img#click-icon {
     transform: translateY(10px);
     transition: all 0.5s;
 }
-/* extended Container ani*/
-    /*.last-item-header i {
-        display:inline-block;
-        position: relative;
-        bottom: -15px;
-    }
-    .last-item-header i:before,
-    .last-item-header i:after {
-        content: '';
-        position: absolute;
-        width: 30px;
-        height: 30px;
-        background: transparent;
-        top: -10px;
-        left: 0;
-        border: 0.5px solid #fff;
-        border-radius: 100%;
-    }
-    .last-item-header:hover i:before {
-        animation: borderPing 2s ease-in-out infinite;
-    }
-    .last-item-header:hover i:after {
-        animation: borderPing 2.6s ease-in-out infinite;
-    }
-    .last-item-header:hover img#click-icon {
-        width: 30px;
-        transform: translateY(0px);
-    }
-    span.ext-more {
-        position: relative;
-        left: -8.3px;
-        bottom: 4px;
-    }
-    .extended-item {
-        position: relative;
-    }
-    .ext-item-header {
-        position: absolute;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        width: 100%;
-        height: 100%;
-    }
-    */
-
-/* END -->  extended Container ani*/    
-
-
-
-
 
 
 /*Unterseiten*/
@@ -1110,9 +1049,7 @@ body.site .extended-row.flex {
 .extended {
     position: absolute;
 }
-/* .extended-item {
-    width: 150px;
-} */
+
 .extended-item img {
     width: 250px;
 }
@@ -1149,9 +1086,6 @@ body.ext-open .carousel.extended {
 .extended-item:hover h3 {
     color: #fff;
 }
-
-
-
 
 
 /*footer*/

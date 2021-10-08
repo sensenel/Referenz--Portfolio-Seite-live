@@ -1,5 +1,12 @@
 'use-strict'
 
+/*
+ * INFO: 
+ * Normalerweiise werden styles und JS zu Gunsten der Performance "ge'minified" / komprimiert
+ * Als Referenz und für die Lesbarkeit habe ich diese Files so belassen.
+ * Ch. Gabler
+*/
+
     const headerArr = [... document.querySelectorAll('.item-header')],
         imgArr = [... document.querySelectorAll('.content-image__img')];
     let contentHeader = document.getElementsByClassName('content-header');
@@ -16,14 +23,14 @@
             imageWrapper[0].classList.remove('hover'); 
         });
     });   
-        
+    
+    // Async / await für Unterseiten-Content; Page-Reload nur bei klick auf "zurück" 
     async function getText(file) {
         let myObject = await fetch(file);
         let myText = await myObject.text();
         document.getElementById('view').innerHTML = myText;
  
     }
-
     // richtige file zu entsprechenden Header Link
     const projektLink = document.querySelectorAll('.projekt-link');
 

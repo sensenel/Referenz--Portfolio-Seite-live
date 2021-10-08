@@ -1,5 +1,11 @@
 /*CG responsive CSS */
 
+/*
+ * INFO: 
+ * Normalerweiise werden styles und JS zu Gunsten der Performance "ge'minified" / komprimiert
+ * Als Referenz und für die Lesbarkeit habe ich diese Files so belassen.
+ * Ch. Gabler
+*/
 
 @media(max-width: 736px) and (orientation: portrait) {
 

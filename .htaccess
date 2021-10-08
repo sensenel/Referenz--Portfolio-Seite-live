@@ -1,4 +1,6 @@
 
+# www zu non-www und https erzwingen:
+
 RewriteEngine On
 RewriteCond %{HTTPS} off [OR]
 RewriteCond %{HTTP_HOST} ^www\. [NC]

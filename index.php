@@ -13,23 +13,11 @@
 	    <link rel="preload" as="font" crossorigin type="font/ttf" href="/fonts/Rubik-Light.ttf">	
 
         <title>Chris Gabler kleine Referenzliste</title>
-        <?php /* Normalise CSS hier einfügen! 
-        <link href="css/normalise.css" type="text/css" rel="stylesheet" />*/?>
+        <link href="css/normalize.css" type="text/css" rel="stylesheet" />
         <link href="css/styles.css" type="text/css" rel="stylesheet" />
         <link href="css/responsive.css" type="text/css" rel="stylesheet" />
-        <style type="text/css">
-        <?php /* ----> critical CSS <----- */ ?>
-            li.content-header__item h2 span:not(.ext-more) {
-                position: initial;
-                font-size: 14px;
-                font-weight: normal;
-                letter-spacing: 1.4px;
-                opacity: .5;
-                -webkit-text-stroke: .1px #fff;
-                transform: translate(20px, 35px);
-                transition: all 0.3s 0.2s;
-            }        
-        </style>
+        <!-- critical CSS (im Normalfall, nich so für eine Referenzseite) -->
+        <style type="text/css">li.content-header__item h2 span:not(.ext-more) {position: initial; font-size: 14px; font-weight: normal; letter-spacing: 1.4px;opacity: .5;-webkit-text-stroke: .1px #fff;transform: translate(20px, 35px);transition: all 0.3s 0.2s;}</style>
     </head>    
     <body id="body" class="site start">
         <div id="skill-loader">
@@ -190,6 +178,8 @@
                 </a>
             </div>
         </div>
+        <!-- NON-critical CSS (nicht im Fall dieser Referenzseite) ... -->
+        <!-- END NON-critical -->
         <script src="js/jquery.min.js"></script>
         <script src="js/gsap.min.js"></script>
         <script src="js/CSSRulePlugin.min.js"></script>

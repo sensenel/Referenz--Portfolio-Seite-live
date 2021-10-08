@@ -1,5 +1,12 @@
 'use-strict'
 
+/*
+ * INFO: 
+ * Normalerweiise werden styles und JS zu Gunsten der Performance "ge'minified" / komprimiert
+ * Als Referenz und für die Lesbarkeit habe ich diese Files so belassen.
+ * Ch. Gabler
+*/
+
 /*var's*/
     //headerArr von script.js
     //imgrArr von script.js
