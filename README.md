@@ -1,3 +1,6 @@
-# Repository for my pers. reference landingpage - small / HTML / PHP
+# Willkommen im Repository meiner kleinen Portfolio- und Referenz-Seite
 
-... 
+Für Support oder allgemeine Fragen: 
+
+info@chris-gabler.de
+

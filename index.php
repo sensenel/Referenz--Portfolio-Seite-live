@@ -182,7 +182,7 @@
                 </div>
             </div>
             <div class="github-container">
-                <a href="https://github.com/sensenel/ref-landingpage-remote" target="_blank">
+                <a href="https://github.com/sensenel/Referenz-Portfolio-Seite-live" target="_blank">
                     <div class="github-select">
                         <h4><span>i </span><em>Repo' dieser Seite auf gitHub ansehen</em></h4>
                         <img src="/images/github-logo-white.png" al="" />

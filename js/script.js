@@ -21,19 +21,8 @@
         let myObject = await fetch(file);
         let myText = await myObject.text();
         document.getElementById('view').innerHTML = myText;
-        //---> erstmal kein Title document.title = file.pageTitle;
-    // die URI ist nicht relevant in diesem Fall - Situation -> reload: index inhalte fehlen; das reicht also erstmal, aber gut wäre zu wissen wie das geht  
-        //window.history.pushState({"html":file}, '', '/'+ file); 
-    // ENDE 
+ 
     }
-
-
-/*     window.onpopstate = function(e){
-        if(e.state){
-            document.getElementById("wrapper").innerHTML = e.state.html;
-            document.title = e.state.pageTitle;
-        }
-    }; */
 
     // richtige file zu entsprechenden Header Link
     const projektLink = document.querySelectorAll('.projekt-link');
@@ -46,16 +35,6 @@
     });
 
 /** jQuery helpers */
-
-    // EXTENDED ANI VEROWRFEN 21092021
-
-    /*     $('.ext.content-header__item__link').hover(() => {
-            $('body').toggleClass('ext-hover');
-                $('.ext.content-header__item__link').on('click', (e) => {
-                    e.preventDefault();
-                    $('body').toggleClass('ext-open');
-                }); 
-        }); */
        
     $('.direct-links').hover(() => {
         $('body').toggleClass('direct');   
@@ -67,14 +46,6 @@
         $('body').toggleClass('mnu-open');
         $('.nav-content a').toggleClass('init');
     });
-
-/* $(document).ready(function() {
-
-    $( ".count" ).each(function( index ) {
-        console.log( index + ": " + $( this ).text() );
-      });
-
-}); */
 
     // Skill Progress-Bars
     let percents = ['91', '94','82', '71', '55', '67', '86', '79', '66', '28', '89', '33', '40', '73', '55'];
@@ -93,7 +64,7 @@
             return false;
         }
     }
-        // folgendes gilt für Ajax loaded Content; Hover Funktion muss über document delegiert werden sonbst werden neue elemente im DOM nicht erkannt
+    // folgendes gilt für Ajax loaded Content; Hover Funktion muss über document delegiert werden sonbst werden neue elemente im DOM nicht erkannt
     $(document).on("mouseenter", "a.demo", function(){
         $('span.info').addClass('visible');
     }); 
